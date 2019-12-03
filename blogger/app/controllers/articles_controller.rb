@@ -1,5 +1,15 @@
 class ArticlesController < ApplicationController
 	include ArticlesHelper
+	
+	def require_login
+		unless current_user
+			flash.notice = "must be logged in to create/edit/destroy articles"
+			redirect_to articles_path
+			return false
+		end
+	end
+
+
 	def index
 		@articles = Article.all
 	end
@@ -44,5 +54,6 @@ class ArticlesController < ApplicationController
 
 	end
 
+	before_action :require_login, except: [:index, :show]
 
 end
