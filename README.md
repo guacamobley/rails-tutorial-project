@@ -1,1 +1,0 @@
-# rails-tutorial-project
