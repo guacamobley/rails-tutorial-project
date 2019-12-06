@@ -1,0 +1,15 @@
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/Guacamobley/.rbenv/versions/2.6.4/bin/ruby -I /Users/Guacamobley/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20191205-43290-s5yb9q.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20191205-43290-186jvee/skiptrace/internal

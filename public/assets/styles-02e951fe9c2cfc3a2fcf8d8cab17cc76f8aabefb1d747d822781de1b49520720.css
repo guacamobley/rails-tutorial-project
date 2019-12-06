@@ -1,0 +1,39 @@
+/* line 3, app/assets/stylesheets/styles.css.scss */
+body {
+  background-color: #AAA;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+/* line 11, app/assets/stylesheets/styles.css.scss */
+a {
+  color: #0000FF;
+}
+
+/* line 13, app/assets/stylesheets/styles.css.scss */
+a img {
+  border: none;
+}
+
+/* line 18, app/assets/stylesheets/styles.css.scss */
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 24, app/assets/stylesheets/styles.css.scss */
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+/* line 33, app/assets/stylesheets/styles.css.scss */
+#content {
+  clear: both;
+  padding-top: 20px;
+}

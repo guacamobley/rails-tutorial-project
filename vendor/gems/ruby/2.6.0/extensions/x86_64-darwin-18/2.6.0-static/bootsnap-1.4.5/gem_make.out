@@ -1,0 +1,15 @@
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/Guacamobley/.rbenv/versions/2.6.4/bin/ruby -I /Users/Guacamobley/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20191205-43290-g2o28r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/Guacamobley/Documents/Code/the_odin_project/rails-tutorial-project/blogger/vendor/gems/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20191205-43290-17yu4j7/bootsnap
